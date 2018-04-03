@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assessment 2 - Avatar creator</title>
+    <link href="preview.css" type="text/css" rel="stylesheet"/>
+    <link href="controls.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+  </head>
+  
+  <body>
+    <div id="preview">
+      <img id="hair" class="items" src="img/hair1.png" />
+      <img id="eyes" class="items" src="img/eyes1.png" />
+      <img id="nose" class="items" src="img/nose1.png" />
+      <img id="mouth" class="items" src="img/mouth1.png" />
+    </div>
+    <div id = "controls">
+        <input type="range" min="0" max="70" value="60" width = "inputs" id="first" />
+        <input type="range" min="0" max="40" value="20" class = "inputs" id="second" />
+        <input type="range" min="0" max="30" value="20" class = "inputs" id="third" />
+        <input type="range" min="0" max="35" value="20" class = "inputs" id="forth" />
+        <input type="color" id= "color" />
+        <br>
+        <button id = "range">Range</button>
+        <button id = "num">Number</button>
+        <button id = "random">Random</button>
+        <button id = "plus">+</button> |
+        <button id = "Auto">Auto Random Create</button>
+        <button id = "Stop">Stop Auto Create</button>
+                    
+    </div>
+    <div class="container-fluid">
+        <div class="row" id="display"></div>
+    
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="preview.js"></script>
+    <script src="controls.js"></script>
+  </body>
+</html>

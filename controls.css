@@ -1,0 +1,29 @@
+.inputs{
+    width: 80px;
+}
+
+#range {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#num {
+    background-color: black;
+    color: white;
+}
+
+#random {
+    background-color: #FAD;
+}
+
+#plus {
+    background-color: grey;
+}
+
+#Auto, #Stop {
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+
